@@ -1,8 +1,9 @@
 'use client';
 
-import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import Icon from '@/components/ui/AppIcon';
+
+import Icon from '@comp/ui/AppIcon';
+import Link from 'next/link';
 
 interface BreadcrumbItem {
   label: string;
@@ -15,7 +16,7 @@ const Breadcrumb = () => {
   const getBreadcrumbs = (): BreadcrumbItem[] => {
     if (pathname === '/topic-detail') {
       return [
-        { label: 'Home', path: '/home' },
+        { label: 'Home', path: '/' },
         { label: 'Topics', path: '/topics-overview' },
         { label: 'Topic Detail', path: '/topic-detail' },
       ];
@@ -23,11 +24,11 @@ const Breadcrumb = () => {
 
     const pathSegments = pathname.split('/').filter(Boolean);
 
-    if (pathSegments.length === 0 || pathname === '/home') {
+    if (pathSegments.length === 0 || pathname === '/') {
       return [];
     }
 
-    const breadcrumbs: BreadcrumbItem[] = [{ label: 'Home', path: '/home' }];
+    const breadcrumbs: BreadcrumbItem[] = [{ label: 'Home', path: '/' }];
 
     const routeLabels: Record<string, string> = {
       'topics-overview': 'Topics',
@@ -75,7 +76,7 @@ const Breadcrumb = () => {
                 <Icon
                   name="ChevronRightIcon"
                   size={16}
-                  className="text-muted-foreground flex-shrink-0"
+                  className="text-muted-foreground shrink-0"
                 />
               )}
               {isLast ? (

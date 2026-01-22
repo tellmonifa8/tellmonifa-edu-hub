@@ -1,9 +1,11 @@
 'use client';
 
-import { useState } from 'react';
-import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import Icon from '@/components/ui/AppIcon';
+import { useState } from 'react';
+
+import Icon from '@comp/ui/AppIcon';
+import Image from 'next/image';
+import Link from 'next/link';
 
 interface NavigationItem {
   label: string;
@@ -16,7 +18,7 @@ const Header = () => {
   const pathname = usePathname();
 
   const navigationItems: NavigationItem[] = [
-    { label: 'Home', path: '/home', icon: 'HomeIcon' },
+    { label: 'Home', path: '/', icon: 'HomeIcon' },
     { label: 'Topics', path: '/topics-overview', icon: 'BookOpenIcon' },
     { label: 'Guides', path: '/practical-guides', icon: 'LightBulbIcon' },
     { label: 'Get Support', path: '/support-pathways', icon: 'HeartIcon' },
@@ -24,8 +26,8 @@ const Header = () => {
   ];
 
   const isActivePath = (path: string) => {
-    if (path === '/home') {
-      return pathname === '/' || pathname === '/home';
+    if (path === '/') {
+      return pathname === '/' || pathname === '/';
     }
     return pathname === path || pathname.startsWith(path);
   };
@@ -40,25 +42,23 @@ const Header = () => {
 
   return (
     <>
-      <header className="fixed top-0 left-0 right-0 z-100 bg-card shadow-md transition-smooth">
+      <header className="fixed top-0 left-0 right-0 z-100 bg-card transition-smooth">
         <div className="container mx-auto">
           <div className="flex items-center justify-between h-20 px-6 lg:px-8">
             <Link
-              href="/home"
+              href="/"
               className="flex items-center gap-3 hover-lift transition-smooth focus-ring"
-              aria-label="StudentMindHub Home"
+              aria-label="TellmonifaEduHub Home"
             >
-              <div className="flex items-center justify-center w-12 h-12 rounded-lg bg-primary">
-                <Icon
-                  name="AcademicCapIcon"
-                  size={28}
-                  className="text-primary-foreground"
-                  variant="solid"
-                />
-              </div>
+              <Image
+                src="/logo.png"
+                alt="TellmonifaEduHub Logo"
+                width={40}
+                height={40}
+              />
               <div className="flex flex-col">
-                <span className="text-xl font-heading font-semibold text-foreground leading-tight">
-                  StudentMindHub
+                <span className="text-xl font-heading font-semibold text-foreground">
+                  TellmonifaEduHub
                 </span>
                 <span className="text-xs caption text-muted-foreground">
                   Mental Wellness Support
@@ -79,14 +79,14 @@ const Header = () => {
                     hover-lift press-effect focus-ring
                     ${
                       isActivePath(item.path)
-                        ? 'bg-primary text-primary-foreground shadow-sm'
+                        ? 'bg-primary text-primary-foreground'
                         : 'text-foreground hover:bg-muted'
                     }
                   `}
                   aria-current={isActivePath(item.path) ? 'page' : undefined}
                 >
                   <Icon
-                    name={item.icon as any}
+                    name={item.icon}
                     size={20}
                     variant={isActivePath(item.path) ? 'solid' : 'outline'}
                   />
@@ -142,7 +142,7 @@ const Header = () => {
                       press-effect focus-ring min-h-[44px]
                       ${
                         isActivePath(item.path)
-                          ? 'bg-primary text-primary-foreground shadow-sm'
+                          ? 'bg-primary text-primary-foreground'
                           : 'text-foreground hover:bg-muted'
                       }
                     `}
@@ -164,7 +164,7 @@ const Header = () => {
                     <Icon
                       name="InformationCircleIcon"
                       size={24}
-                      className="text-primary flex-shrink-0"
+                      className="text-primary shrink-0"
                     />
                     <div>
                       <h3 className="font-heading font-semibold text-foreground mb-2">

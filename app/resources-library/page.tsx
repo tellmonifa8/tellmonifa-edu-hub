@@ -1,7 +1,8 @@
 import type { Metadata } from 'next';
-import Header from '@/components/common/Header';
-import Breadcrumb from '@/components/common/Breadcrumb';
-import ResourcesLibraryInteractive from './components/ResourcesLibraryInteractive';
+
+import Breadcrumb from '@comp/common/Breadcrumb';
+import Header from '@comp/common/Header';
+import ResourcesLibraryInteractive from '@comp/resources-library/ResourcesLibraryInteractive';
 
 export const metadata: Metadata = {
   title: 'Resources Library - StudentMindHub',
