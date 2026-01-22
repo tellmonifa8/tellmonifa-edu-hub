@@ -27,11 +27,11 @@ module.exports = {
         background: 'var(--color-background)',
         foreground: 'var(--color-foreground)',
         primary: {
-          DEFAULT: 'var(--color-primary)' /* sage green */,
+          DEFAULT: 'var(--color-primary)' /* purple #542C85 */,
           foreground: 'var(--color-primary-foreground)' /* white */,
         },
         secondary: {
-          DEFAULT: 'var(--color-secondary)' /* lighter sage */,
+          DEFAULT: 'var(--color-secondary)' /* teal #28aec0 */,
           foreground: 'var(--color-secondary-foreground)' /* white */,
         },
         destructive: {
@@ -39,28 +39,28 @@ module.exports = {
           foreground: 'var(--color-destructive-foreground)' /* white */,
         },
         muted: {
-          DEFAULT: 'var(--color-muted)' /* subtle green-tinted */,
-          foreground: 'var(--color-muted-foreground)' /* lighter gray */,
+          DEFAULT: 'var(--color-muted)' /* subtle purple-tinted */,
+          foreground: 'var(--color-muted-foreground)' /* gray */,
         },
         accent: {
-          DEFAULT: 'var(--color-accent)' /* warm gold */,
-          foreground: 'var(--color-accent-foreground)' /* deep blue-gray */,
+          DEFAULT: 'var(--color-accent)' /* teal #28aec0 */,
+          foreground: 'var(--color-accent-foreground)' /* black */,
         },
         popover: {
           DEFAULT: 'var(--color-popover)' /* white */,
-          foreground: 'var(--color-popover-foreground)' /* deep blue-gray */,
+          foreground: 'var(--color-popover-foreground)' /* black */,
         },
         card: {
-          DEFAULT: 'var(--color-card)' /* subtle green-tinted */,
-          foreground: 'var(--color-card-foreground)' /* deep blue-gray */,
+          DEFAULT: 'var(--color-card)' /* subtle purple-tinted */,
+          foreground: 'var(--color-card-foreground)' /* black */,
         },
         success: {
-          DEFAULT: 'var(--color-success)' /* affirming teal */,
+          DEFAULT: 'var(--color-success)' /* teal #28aec0 */,
           foreground: 'var(--color-success-foreground)' /* white */,
         },
         warning: {
-          DEFAULT: 'var(--color-warning)' /* gentle amber */,
-          foreground: 'var(--color-warning-foreground)' /* deep blue-gray */,
+          DEFAULT: 'var(--color-warning)' /* amber */,
+          foreground: 'var(--color-warning-foreground)' /* black */,
         },
         error: {
           DEFAULT: 'var(--color-error)' /* muted red */,

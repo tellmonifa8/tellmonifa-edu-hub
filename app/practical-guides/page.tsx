@@ -1,7 +1,8 @@
 import type { Metadata } from 'next';
-import Header from '@/components/common/Header';
-import Breadcrumb from '@/components/common/Breadcrumb';
-import PracticalGuidesInteractive from './components/PracticalGuidesInteractive';
+
+import Breadcrumb from '@comp/common/Breadcrumb';
+import Header from '@comp/common/Header';
+import PracticalGuidesInteractive from '@comp/practical-guides/PracticalGuidesInteractive';
 
 export const metadata: Metadata = {
   title: 'Practical Guides - StudentMindHub',

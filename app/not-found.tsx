@@ -1,8 +1,7 @@
 'use client';
 
-import React from 'react';
+import Icon from '@comp/ui/AppIcon';
 import { useRouter } from 'next/navigation';
-import Icon from '@/components/ui/AppIcon';
 
 export default function NotFound() {
   const router = useRouter();
