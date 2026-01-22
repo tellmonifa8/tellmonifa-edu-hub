@@ -109,7 +109,7 @@ const TopicsInteractive = () => {
           {mockTopics.map((topic) => (
             <div
               key={topic.id}
-              className="bg-card rounded-xl shadow-md h-96 animate-pulse"
+              className="bg-card rounded-xl h-96 animate-pulse"
             />
           ))}
         </div>

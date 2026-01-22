@@ -288,7 +288,7 @@ const PracticalGuidesInteractive = () => {
               {[1, 2, 3, 4, 5, 6].map((i) => (
                 <div
                   key={i}
-                  className="bg-card rounded-lg shadow-md p-6"
+                  className="bg-card rounded-lg p-6"
                 >
                   <div className="h-48 bg-muted rounded-md mb-4"></div>
                   <div className="h-6 bg-muted rounded-md w-3/4 mb-3"></div>

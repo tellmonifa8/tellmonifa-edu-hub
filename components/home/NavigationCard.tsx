@@ -21,7 +21,7 @@ const NavigationCard = ({
   ctaVariant = 'primary',
 }: NavigationCardProps) => {
   return (
-    <div className="group bg-card rounded-xl shadow-md hover:shadow-xl transition-smooth p-8 border border-border hover:border-primary/30 h-full flex flex-col">
+    <div className="group bg-card rounded-xl transition-smooth p-8 border border-border hover:border-primary/30 h-full flex flex-col">
       <div
         className={`w-16 h-16 rounded-xl ${iconColor} flex items-center justify-center mb-6 group-hover:scale-110 transition-smooth`}
       >
@@ -37,7 +37,7 @@ const NavigationCard = ({
         {title}
       </h3>
 
-      <p className="text-muted-foreground mb-6 flex-grow leading-relaxed">
+      <p className="text-muted-foreground mb-6 grow leading-relaxed">
         {description}
       </p>
 

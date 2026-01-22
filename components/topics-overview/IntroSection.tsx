@@ -2,9 +2,9 @@ import Icon from '@comp/ui/AppIcon';
 
 const IntroSection = () => {
   return (
-    <div className="bg-card rounded-xl shadow-sm p-6 lg:p-8 mb-8 lg:mb-12">
+    <div className="bg-card rounded-xl p-6 lg:p-8 mb-8 lg:mb-12">
       <div className="flex items-start gap-4 mb-4">
-        <div className="flex items-center justify-center w-12 h-12 rounded-lg bg-primary/10 flex-shrink-0">
+        <div className="flex items-center justify-center w-12 h-12 rounded-lg bg-primary/10 shrink-0">
           <Icon
             name="BookOpenIcon"
             size={24}

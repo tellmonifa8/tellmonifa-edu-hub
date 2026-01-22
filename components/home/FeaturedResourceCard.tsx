@@ -23,7 +23,7 @@ const FeaturedResourceCard = ({
   return (
     <a
       href={href}
-      className="group bg-card rounded-xl shadow-md hover:shadow-xl transition-smooth overflow-hidden border border-border hover:border-primary/30 block h-full focus-ring"
+      className="group bg-card rounded-xl transition-smooth overflow-hidden border border-border hover:border-primary/30 block h-full focus-ring"
     >
       <div className="relative h-48 overflow-hidden">
         <AppImage

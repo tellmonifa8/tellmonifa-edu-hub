@@ -34,7 +34,7 @@ const RelatedTopics = ({ topics }: RelatedTopicsProps) => {
           <Link
             key={index}
             href="/topic-detail"
-            className="group bg-card rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-smooth focus-ring"
+            className="group bg-card rounded-lg overflow-hidden  transition-smooth focus-ring"
           >
             <div className="relative h-40 overflow-hidden">
               <AppImage
@@ -42,7 +42,7 @@ const RelatedTopics = ({ topics }: RelatedTopicsProps) => {
                 alt={topic.imageAlt}
                 className="w-full h-full object-cover group-hover:scale-105 transition-smooth"
               />
-              <div className="absolute top-3 right-3 w-10 h-10 bg-primary rounded-lg flex items-center justify-center shadow-md">
+              <div className="absolute top-3 right-3 w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
                 <Icon
                   name={topic.icon as any}
                   size={20}

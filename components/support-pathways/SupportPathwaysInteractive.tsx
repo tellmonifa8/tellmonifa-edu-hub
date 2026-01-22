@@ -294,7 +294,7 @@ const SupportPathwaysInteractive = () => {
 
       <div className="bg-primary/5 border-2 border-primary rounded-lg p-6 lg:p-8">
         <div className="flex flex-col lg:flex-row items-start lg:items-center gap-6">
-          <div className="flex-shrink-0 w-16 h-16 rounded-full bg-primary flex items-center justify-center">
+          <div className="shrink-0 w-16 h-16 rounded-full bg-primary flex items-center justify-center">
             <Icon
               name="InformationCircleIcon"
               size={32}

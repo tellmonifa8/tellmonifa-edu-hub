@@ -60,7 +60,7 @@ const ExperienceCard = ({ experiences }: ExperienceCardProps) => {
         {experiences.map((experience, index) => (
           <div
             key={index}
-            className="bg-card rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-smooth"
+            className="bg-card rounded-lg overflow-hidden transition-smooth"
           >
             <button
               onClick={() => toggleExpand(index)}
@@ -73,7 +73,7 @@ const ExperienceCard = ({ experiences }: ExperienceCardProps) => {
               <Icon
                 name="ChevronDownIcon"
                 size={20}
-                className={`text-muted-foreground flex-shrink-0 transition-transform ${
+                className={`text-muted-foreground shrink-0 transition-transform ${
                   expandedIndex === index ? 'rotate-180' : ''
                 }`}
               />

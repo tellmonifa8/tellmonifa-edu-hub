@@ -42,7 +42,7 @@ const TrustSignalsSection = () => {
             Why Trust StudentMindHub?
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            We're committed to providing safe, culturally sensitive, and
+            We&apos;re committed to providing safe, culturally sensitive, and
             professional mental health support for African students.
           </p>
         </div>
@@ -51,7 +51,7 @@ const TrustSignalsSection = () => {
           {trustSignals.map((signal, index) => (
             <div
               key={index}
-              className="bg-card rounded-xl p-6 shadow-sm hover:shadow-md transition-smooth text-center"
+              className="bg-card rounded-xl p-6 transition-smooth text-center"
             >
               <div className="w-14 h-14 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4">
                 <Icon

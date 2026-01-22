@@ -1,7 +1,5 @@
 'use client';
 
-import { useState } from 'react';
-
 import Icon from '@comp/ui/AppIcon';
 import AppImage from '@comp/ui/AppImage';
 
@@ -22,8 +20,6 @@ interface GuideCardProps {
 }
 
 const GuideCard = ({ guide, onBookmark, onViewGuide }: GuideCardProps) => {
-  const [imageError, setImageError] = useState(false);
-
   const difficultyColors = {
     Beginner: 'bg-success/10 text-success',
     Intermediate: 'bg-warning/10 text-warning',
@@ -31,7 +27,7 @@ const GuideCard = ({ guide, onBookmark, onViewGuide }: GuideCardProps) => {
   };
 
   return (
-    <article className="bg-card rounded-lg shadow-md hover:shadow-lg transition-smooth overflow-hidden flex flex-col h-full">
+    <article className="bg-card rounded-lg transition-smooth overflow-hidden flex flex-col h-full">
       <div className="relative h-48 overflow-hidden bg-muted">
         <AppImage
           src={guide.image}
@@ -52,7 +48,7 @@ const GuideCard = ({ guide, onBookmark, onViewGuide }: GuideCardProps) => {
         </button>
       </div>
 
-      <div className="p-6 flex flex-col flex-grow">
+      <div className="p-6 flex flex-col grow">
         <div className="flex items-center gap-2 mb-3">
           <span className="caption text-primary font-medium">
             {guide.category}
@@ -67,7 +63,7 @@ const GuideCard = ({ guide, onBookmark, onViewGuide }: GuideCardProps) => {
           {guide.title}
         </h3>
 
-        <p className="text-muted-foreground mb-4 line-clamp-3 flex-grow">
+        <p className="text-muted-foreground mb-4 line-clamp-3 grow">
           {guide.description}
         </p>
 

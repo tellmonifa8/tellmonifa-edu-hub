@@ -54,7 +54,7 @@ const QuickAccessSection = () => {
           {quickAccessItems.map((item, index) => (
             <div
               key={index}
-              className="bg-card rounded-xl p-8 shadow-md hover:shadow-xl transition-smooth border border-border text-center"
+              className="bg-card rounded-xl p-8 transition-smooth border border-border text-center"
             >
               <div
                 className={`w-16 h-16 rounded-full ${

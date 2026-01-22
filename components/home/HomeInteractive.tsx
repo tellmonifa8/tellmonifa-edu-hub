@@ -94,7 +94,6 @@ const HomeInteractive = () => {
 
   return (
     <div className="container mx-auto px-6 lg:px-8">
-      {/* Hero Section */}
       <section className="py-12 lg:py-20 text-center">
         <h1 className="font-heading font-bold text-4xl lg:text-6xl text-foreground mb-6">
           Your Mental Health Matters
@@ -106,13 +105,12 @@ const HomeInteractive = () => {
         </p>
       </section>
 
-      {/* Navigation Cards */}
       <section className="py-8 lg:py-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
           {navigationCards.map((card) => (
             <div
               key={card.href}
-              className="bg-card rounded-lg p-8 shadow-md hover:shadow-lg transition-smooth hover-lift"
+              className="bg-card rounded-lg p-8 transition-smooth hover-lift"
             >
               <div
                 className={`${card.iconColor} w-14 h-14 rounded-lg flex items-center justify-center mb-6`}
@@ -145,7 +143,6 @@ const HomeInteractive = () => {
         </div>
       </section>
 
-      {/* Featured Resources */}
       <section className="py-12 lg:py-16">
         <div className="text-center mb-12">
           <h2 className="font-heading font-bold text-3xl lg:text-4xl text-foreground mb-4">
@@ -162,7 +159,7 @@ const HomeInteractive = () => {
             <div
               key={index}
               onClick={() => router.push(resource.href)}
-              className="bg-card rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-smooth hover-lift cursor-pointer"
+              className="bg-card rounded-lg overflow-hidden transition-smooth hover-lift cursor-pointer"
             >
               <div className="aspect-video bg-muted relative">
                 <img

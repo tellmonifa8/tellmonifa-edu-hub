@@ -30,7 +30,7 @@ const TopicHeader = ({
 
   if (!isHydrated) {
     return (
-      <div className="bg-card rounded-xl overflow-hidden shadow-md">
+      <div className="bg-card rounded-xl overflow-hidden">
         <div className="relative h-64 md:h-80 lg:h-96 bg-muted" />
         <div className="p-6 lg:p-8">
           <div className="flex items-center gap-3 mb-4">
@@ -45,7 +45,7 @@ const TopicHeader = ({
   }
 
   return (
-    <div className="bg-card rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-smooth">
+    <div className="bg-card rounded-xl overflow-hidden transition-smooth">
       <div className="relative h-64 md:h-80 lg:h-96 overflow-hidden">
         <AppImage
           src={image}

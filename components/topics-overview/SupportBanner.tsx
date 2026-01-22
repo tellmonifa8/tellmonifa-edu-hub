@@ -3,7 +3,7 @@ import Icon from '@comp/ui/AppIcon';
 
 const SupportBanner = () => {
   return (
-    <div className="bg-gradient-to-br from-primary/10 via-secondary/5 to-accent/10 rounded-xl shadow-sm p-6 lg:p-8 mt-12">
+    <div className="bg-gradient-to-br from-primary/10 via-secondary/5 to-accent/10 rounded-xl p-6 lg:p-8 mt-12">
       <div className="max-w-3xl mx-auto text-center">
         <div className="flex justify-center mb-4">
           <div className="flex items-center justify-center w-16 h-16 rounded-full bg-primary/20">
@@ -21,9 +21,9 @@ const SupportBanner = () => {
         </h3>
 
         <p className="text-muted-foreground mb-6 leading-relaxed">
-          If you're experiencing a mental health crisis or need professional
-          guidance right now, our support pathways connect you with verified
-          therapists and crisis resources available 24/7.
+          If you&apos;re experiencing a mental health crisis or need
+          professional guidance right now, our support pathways connect you with
+          verified therapists and crisis resources available 24/7.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">

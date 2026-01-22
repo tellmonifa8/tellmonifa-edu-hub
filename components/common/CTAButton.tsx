@@ -32,10 +32,10 @@ const CTAButton = ({
     'inline-flex items-center justify-center gap-2 font-medium rounded-md transition-smooth hover-lift press-effect focus-ring disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:translate-y-0';
 
   const variantStyles = {
-    primary: 'bg-primary text-primary-foreground shadow-sm hover:shadow-md',
+    primary: 'bg-primary text-primary-foreground',
     secondary:
-      'bg-secondary text-secondary-foreground shadow-sm hover:shadow-md',
-    accent: 'bg-accent text-accent-foreground shadow-sm hover:shadow-md',
+      'bg-secondary text-secondary-foreground',
+    accent: 'bg-accent text-accent-foreground',
   };
 
   const sizeStyles = {

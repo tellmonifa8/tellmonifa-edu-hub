@@ -28,7 +28,7 @@ const TopicCard = ({ topic }: TopicCardProps) => {
 
   if (!isHydrated) {
     return (
-      <div className="bg-card rounded-xl shadow-md overflow-hidden transition-smooth h-full flex flex-col">
+      <div className="bg-card rounded-xl overflow-hidden transition-smooth h-full flex flex-col">
         <div className="relative h-48 bg-muted overflow-hidden">
           <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent z-10" />
         </div>
@@ -57,7 +57,7 @@ const TopicCard = ({ topic }: TopicCardProps) => {
   return (
     <Link
       href={`/topic-detail?topic=${topic.slug}`}
-      className="bg-card rounded-xl shadow-md overflow-hidden transition-smooth hover-lift hover:shadow-lg press-effect focus-ring h-full flex flex-col group"
+      className="bg-card rounded-xl overflow-hidden transition-smooth hover-lift press-effect focus-ring h-full flex flex-col group"
     >
       <div className="relative h-48 bg-muted overflow-hidden">
         <AppImage

@@ -1,7 +1,5 @@
 import type { Metadata } from 'next';
 
-import Breadcrumb from '@comp/common/Breadcrumb';
-import Header from '@comp/common/Header';
 import HomeInteractive from '@comp/home/HomeInteractive';
 
 export const metadata: Metadata = {
@@ -13,8 +11,6 @@ export const metadata: Metadata = {
 export default function HomePage() {
   return (
     <>
-      <Header />
-      <Breadcrumb />
       <main className="min-h-screen bg-background pt-20">
         <HomeInteractive />
       </main>

@@ -33,21 +33,21 @@ const FeaturedGuides = ({ guides }: FeaturedGuidesProps) => {
         {guides.map((guide) => (
           <article
             key={guide.id}
-            className="bg-gradient-to-br from-primary/5 to-accent/5 rounded-lg shadow-md hover:shadow-lg transition-smooth overflow-hidden"
+            className="bg-linear-to-br from-primary/5 to-accent/5 rounded-lg transition-smooth overflow-hidden"
           >
             <div className="flex flex-col sm:flex-row">
-              <div className="relative w-full sm:w-48 h-48 overflow-hidden bg-muted flex-shrink-0">
+              <div className="relative w-full sm:w-48 h-48 overflow-hidden bg-muted shrink-0">
                 <AppImage
                   src={guide.image}
                   alt={guide.alt}
                   className="w-full h-full object-cover"
                 />
-                <span className="absolute top-4 left-4 bg-accent text-accent-foreground caption px-3 py-1.5 rounded-md font-medium shadow-sm">
+                <span className="absolute top-4 left-4 bg-accent text-accent-foreground caption px-3 py-1.5 rounded-md font-medium">
                   {guide.badge}
                 </span>
               </div>
 
-              <div className="p-6 flex flex-col justify-center flex-grow">
+              <div className="p-6 flex flex-col justify-center grow">
                 <h3 className="text-xl font-heading font-semibold text-foreground mb-3">
                   {guide.title}
                 </h3>

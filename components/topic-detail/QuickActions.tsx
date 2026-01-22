@@ -3,7 +3,7 @@ import Icon from '@comp/ui/AppIcon';
 
 const QuickActions = () => {
   return (
-    <aside className="bg-card rounded-xl p-6 shadow-md sticky top-24">
+    <aside className="bg-card rounded-xl p-6 sticky top-24">
       <div className="flex items-center gap-3 mb-6">
         <Icon
           name="BoltIcon"
@@ -57,7 +57,7 @@ const QuickActions = () => {
             <Icon
               name="InformationCircleIcon"
               size={20}
-              className="text-accent flex-shrink-0 mt-0.5"
+              className="text-accent shrink-0 mt-0.5"
             />
             <div>
               <p className="text-sm font-medium text-foreground mb-1">

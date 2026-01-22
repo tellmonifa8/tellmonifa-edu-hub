@@ -49,7 +49,7 @@ export default function SupportPathwaysPage() {
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="bg-card rounded-lg border border-border p-6">
                   <div className="flex items-start gap-4">
-                    <div className="flex-shrink-0 w-12 h-12 rounded-lg bg-secondary/10 flex items-center justify-center">
+                    <div className="shrink-0 w-12 h-12 rounded-lg bg-secondary/10 flex items-center justify-center">
                       <Icon
                         name="ShieldCheckIcon"
                         size={24}
@@ -72,7 +72,7 @@ export default function SupportPathwaysPage() {
 
                 <div className="bg-card rounded-lg border border-border p-6">
                   <div className="flex items-start gap-4">
-                    <div className="flex-shrink-0 w-12 h-12 rounded-lg bg-accent/10 flex items-center justify-center">
+                    <div className="shrink-0 w-12 h-12 rounded-lg bg-accent/10 flex items-center justify-center">
                       <Icon
                         name="LockClosedIcon"
                         size={24}

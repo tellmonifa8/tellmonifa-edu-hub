@@ -20,7 +20,7 @@ const ContentSection = ({
     <section className={`${bgColor} rounded-xl p-6 lg:p-8`}>
       <div className="flex items-start gap-4 mb-6">
         <div
-          className={`flex-shrink-0 w-12 h-12 rounded-lg bg-card flex items-center justify-center ${iconColor}`}
+          className={`shrink-0 w-12 h-12 rounded-lg bg-card flex items-center justify-center ${iconColor}`}
         >
           <Icon
             name={icon as any}

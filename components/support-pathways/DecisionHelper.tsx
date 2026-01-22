@@ -82,7 +82,7 @@ const DecisionHelper = () => {
   return (
     <div className="bg-card rounded-lg border border-border p-6 lg:p-8">
       <div className="flex items-start gap-4 mb-6">
-        <div className="flex-shrink-0 w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center">
+        <div className="shrink-0 w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center">
           <Icon
             name="QuestionMarkCircleIcon"
             size={28}
@@ -110,8 +110,7 @@ const DecisionHelper = () => {
               key={option.pathway}
               onClick={() => setSelectedPathway(option.pathway)}
               className={`
-                flex items-center gap-4 p-4 rounded-lg border-2 transition-smooth
-                hover:shadow-md press-effect focus-ring text-left
+                flex items-center gap-4 p-4 rounded-lg border-2 transition-smooth press-effect focus-ring text-left
                 ${
                   selectedPathway === option.pathway
                     ? 'border-primary bg-primary/5'
@@ -121,7 +120,7 @@ const DecisionHelper = () => {
             >
               <div
                 className={`
-                flex-shrink-0 w-10 h-10 rounded-lg flex items-center justify-center
+                shrink-0 w-10 h-10 rounded-lg flex items-center justify-center
                 ${selectedPathway === option.pathway ? 'bg-primary text-primary-foreground' : 'bg-muted text-foreground'}
               `}
               >
@@ -140,7 +139,7 @@ const DecisionHelper = () => {
                 <Icon
                   name="CheckCircleIcon"
                   size={24}
-                  className="text-primary flex-shrink-0"
+                  className="text-primary shrink-0"
                   variant="solid"
                 />
               )}

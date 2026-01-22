@@ -1,10 +1,10 @@
 'use client';
 
-import { usePathname } from 'next/navigation';
-import { useState } from 'react';
+import { usePathname } from 'next/navigation'
+import { useState } from 'react'
 
-import Icon from '@comp/ui/AppIcon';
-import Link from 'next/link';
+import Icon from '@comp/ui/AppIcon'
+import Link from 'next/link'
 
 interface NavigationItem {
   label: string;
@@ -17,7 +17,7 @@ const Header = () => {
   const pathname = usePathname();
 
   const navigationItems: NavigationItem[] = [
-    { label: 'Home', path: '/home', icon: 'HomeIcon' },
+    { label: 'Home', path: '/', icon: 'HomeIcon' },
     { label: 'Topics', path: '/topics-overview', icon: 'BookOpenIcon' },
     { label: 'Guides', path: '/practical-guides', icon: 'LightBulbIcon' },
     { label: 'Get Support', path: '/support-pathways', icon: 'HeartIcon' },
@@ -25,8 +25,8 @@ const Header = () => {
   ];
 
   const isActivePath = (path: string) => {
-    if (path === '/home') {
-      return pathname === '/' || pathname === '/home';
+    if (path === '/') {
+      return pathname === '/' || pathname === '/';
     }
     return pathname === path || pathname.startsWith(path);
   };
@@ -41,11 +41,11 @@ const Header = () => {
 
   return (
     <>
-      <header className="fixed top-0 left-0 right-0 z-100 bg-card shadow-md transition-smooth">
+      <header className="fixed top-0 left-0 right-0 z-100 bg-card transition-smooth">
         <div className="container mx-auto">
           <div className="flex items-center justify-between h-20 px-6 lg:px-8">
             <Link
-              href="/home"
+              href="/"
               className="flex items-center gap-3 hover-lift transition-smooth focus-ring"
               aria-label="StudentMindHub Home"
             >
@@ -80,7 +80,7 @@ const Header = () => {
                     hover-lift press-effect focus-ring
                     ${
                       isActivePath(item.path)
-                        ? 'bg-primary text-primary-foreground shadow-sm'
+                        ? 'bg-primary text-primary-foreground'
                         : 'text-foreground hover:bg-muted'
                     }
                   `}
@@ -143,7 +143,7 @@ const Header = () => {
                       press-effect focus-ring min-h-[44px]
                       ${
                         isActivePath(item.path)
-                          ? 'bg-primary text-primary-foreground shadow-sm'
+                          ? 'bg-primary text-primary-foreground'
                           : 'text-foreground hover:bg-muted'
                       }
                     `}
@@ -165,7 +165,7 @@ const Header = () => {
                     <Icon
                       name="InformationCircleIcon"
                       size={24}
-                      className="text-primary flex-shrink-0"
+                      className="text-primary shrink-0"
                     />
                     <div>
                       <h3 className="font-heading font-semibold text-foreground mb-2">

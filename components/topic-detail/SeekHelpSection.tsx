@@ -14,7 +14,7 @@ const SeekHelpSection = ({ signs }: SeekHelpSectionProps) => {
   return (
     <section className="bg-gradient-to-br from-error/10 to-warning/10 rounded-xl p-6 lg:p-8 border-2 border-error/20">
       <div className="flex items-start gap-4 mb-6">
-        <div className="flex-shrink-0 w-12 h-12 rounded-lg bg-error/20 flex items-center justify-center">
+        <div className="shrink-0 w-12 h-12 rounded-lg bg-error/20 flex items-center justify-center">
           <Icon
             name="ExclamationTriangleIcon"
             size={24}
@@ -42,7 +42,7 @@ const SeekHelpSection = ({ signs }: SeekHelpSectionProps) => {
             <Icon
               name={sign.icon as any}
               size={20}
-              className="text-error flex-shrink-0 mt-0.5"
+              className="text-error shrink-0 mt-0.5"
               variant="solid"
             />
             <span className="text-sm text-foreground leading-relaxed">

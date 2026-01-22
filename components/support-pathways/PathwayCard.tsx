@@ -55,7 +55,7 @@ const PathwayCard = ({
     >
       <div className="flex items-start gap-4 mb-6">
         <div
-          className={`flex-shrink-0 w-14 h-14 rounded-lg bg-card flex items-center justify-center ${variantIconColors[variant]}`}
+          className={`shrink-0 w-14 h-14 rounded-lg bg-card flex items-center justify-center ${variantIconColors[variant]}`}
         >
           <Icon
             name={icon as any}
@@ -86,12 +86,12 @@ const PathwayCard = ({
 
             <button
               onClick={() => toggleStep(step.id)}
-              className="w-full text-left bg-card rounded-lg p-4 hover:shadow-md transition-smooth press-effect focus-ring"
+              className="w-full text-left bg-card rounded-lg p-4 transition-smooth press-effect focus-ring"
               aria-expanded={expandedStep === step.id}
             >
               <div className="flex items-start gap-4">
                 <div
-                  className={`flex-shrink-0 w-12 h-12 rounded-full ${variantIconColors[variant]} bg-background flex items-center justify-center font-heading font-semibold text-lg relative z-10`}
+                  className={`shrink-0 w-12 h-12 rounded-full ${variantIconColors[variant]} bg-background flex items-center justify-center font-heading font-semibold text-lg relative z-10`}
                 >
                   {index + 1}
                 </div>
@@ -107,7 +107,7 @@ const PathwayCard = ({
                           : 'ChevronDownIcon'
                       }
                       size={20}
-                      className="text-muted-foreground flex-shrink-0"
+                      className="text-muted-foreground shrink-0"
                     />
                   </div>
                 </div>

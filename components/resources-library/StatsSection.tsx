@@ -38,11 +38,11 @@ const StatsSection = ({
       {stats.map((stat, index) => (
         <div
           key={index}
-          className="bg-card rounded-lg p-6 shadow-sm transition-smooth hover-lift"
+          className="bg-card rounded-lg p-6 transition-smooth hover-lift"
         >
           <div className="flex items-center gap-4">
             <div
-              className={`w-12 h-12 ${stat.bgColor} rounded-lg flex items-center justify-center flex-shrink-0`}
+              className={`w-12 h-12 ${stat.bgColor} rounded-lg flex items-center justify-center shrink-0`}
             >
               <Icon
                 name={stat.icon as any}

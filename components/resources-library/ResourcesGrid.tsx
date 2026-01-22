@@ -21,7 +21,7 @@ interface ResourcesGridProps {
 const ResourcesGrid = ({ resources, onDownload }: ResourcesGridProps) => {
   if (resources.length === 0) {
     return (
-      <div className="bg-card rounded-lg p-12 text-center shadow-sm">
+      <div className="bg-card rounded-lg p-12 text-center">
         <div className="max-w-md mx-auto">
           <div className="w-16 h-16 bg-muted rounded-full flex items-center justify-center mx-auto mb-4">
             <svg

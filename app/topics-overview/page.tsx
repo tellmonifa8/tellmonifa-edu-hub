@@ -1,7 +1,6 @@
 import type { Metadata } from 'next';
 
 import Breadcrumb from '@comp/common/Breadcrumb';
-import Header from '@comp/common/Header';
 import TopicsInteractive from '@comp/topics-overview/TopicsInteractive';
 
 export const metadata: Metadata = {
@@ -13,8 +12,6 @@ export const metadata: Metadata = {
 export default function TopicsOverviewPage() {
   return (
     <div className="min-h-screen bg-background">
-      <Header />
-
       <main className="pt-20">
         <Breadcrumb />
 

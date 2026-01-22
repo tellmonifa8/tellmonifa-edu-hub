@@ -44,7 +44,7 @@ const FilterBar = ({
   const difficulties = ['All Levels', 'Beginner', 'Intermediate', 'Advanced'];
 
   return (
-    <div className="bg-card rounded-lg shadow-sm p-6 mb-8">
+    <div className="bg-card rounded-lg p-6 mb-8">
       <div className="flex items-center justify-between mb-6">
         <h2 className="text-lg font-heading font-semibold text-foreground flex items-center gap-2">
           <Icon

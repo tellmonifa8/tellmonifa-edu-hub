@@ -1,5 +1,7 @@
-import React from 'react';
 import type { Metadata, Viewport } from 'next';
+
+import Header from '@comp/common/Header';
+
 import './globals.css';
 
 export const viewport: Viewport = {
@@ -23,6 +25,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
+        <Header />
         {children}
 
         <script

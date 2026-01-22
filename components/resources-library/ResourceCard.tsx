@@ -59,7 +59,7 @@ const ResourceCard = ({ resource, onDownload }: ResourceCardProps) => {
     <article
       className={`
         bg-card rounded-lg overflow-hidden transition-smooth hover-lift
-        ${resource.isFeatured ? 'ring-2 ring-accent shadow-lg' : 'shadow-sm hover:shadow-md'}
+        ${resource.isFeatured ? 'ring-2 ring-accent' : ''}
       `}
     >
       {resource.isFeatured && (
@@ -125,7 +125,7 @@ const ResourceCard = ({ resource, onDownload }: ResourceCardProps) => {
         <button
           onClick={handleDownload}
           disabled={isDownloading}
-          className="w-full flex items-center justify-center gap-2 px-6 py-3 bg-secondary text-secondary-foreground rounded-md font-medium transition-smooth hover-lift press-effect focus-ring disabled:opacity-50 disabled:cursor-not-allowed min-h-[48px]"
+          className="w-full flex items-center justify-center gap-2 px-6 py-3 bg-secondary text-secondary-foreground rounded-md font-medium transition-smooth hover-lift press-effect focus-ring disabled:opacity-50 disabled:cursor-not-allowed min-h-12"
           aria-label={`Download ${resource.title}`}
         >
           {isDownloading ? (

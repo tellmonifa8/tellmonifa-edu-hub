@@ -33,7 +33,7 @@ const SearchFilters = ({
 
   if (!isHydrated) {
     return (
-      <div className="bg-card rounded-lg p-6 shadow-sm">
+      <div className="bg-card rounded-lg p-6">
         <div className="h-12 bg-muted rounded-md animate-pulse" />
       </div>
     );
@@ -73,7 +73,7 @@ const SearchFilters = ({
   ].filter(Boolean).length;
 
   return (
-    <div className="bg-card rounded-lg p-6 shadow-sm">
+    <div className="bg-card rounded-lg p-6">
       <div className="flex flex-col lg:flex-row gap-4">
         <div className="flex-1 relative">
           <Icon

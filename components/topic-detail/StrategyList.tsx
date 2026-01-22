@@ -12,7 +12,7 @@ interface StrategyListProps {
 
 const StrategyList = ({ strategies }: StrategyListProps) => {
   return (
-    <section className="bg-card rounded-xl p-6 lg:p-8 shadow-md">
+    <section className="bg-card rounded-xl p-6 lg:p-8">
       <div className="flex items-center gap-3 mb-6">
         <Icon
           name="LightBulbIcon"
@@ -32,7 +32,7 @@ const StrategyList = ({ strategies }: StrategyListProps) => {
             className="bg-muted/50 rounded-lg p-5 hover:bg-muted transition-smooth"
           >
             <div className="flex items-start gap-3 mb-3">
-              <div className="flex-shrink-0 w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center">
+              <div className="shrink-0 w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center">
                 <Icon
                   name={strategy.icon as any}
                   size={20}
