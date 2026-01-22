@@ -39,7 +39,7 @@ const TrustSignalsSection = () => {
       <div className="container mx-auto px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-3xl lg:text-4xl font-heading font-bold text-foreground mb-4">
-            Why Trust StudentMindHub?
+            Why Trust TellmonifaEduHub?
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             We&apos;re committed to providing safe, culturally sensitive, and
