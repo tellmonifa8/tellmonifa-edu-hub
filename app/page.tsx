@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 import HomeInteractive from '@comp/home/HomeInteractive';
 
 export const metadata: Metadata = {
-  title: 'StudentMindHub - Mental Health Support for African Students',
+  title: 'TellmonifaEduHub - Mental Health Support for African Students',
   description:
     'Access trusted mental health resources, practical guidance, and professional support designed specifically for African students navigating academic life and personal growth.',
 };

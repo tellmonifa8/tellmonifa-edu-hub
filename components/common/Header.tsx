@@ -4,6 +4,7 @@ import { usePathname } from 'next/navigation';
 import { useState } from 'react';
 
 import Icon from '@comp/ui/AppIcon';
+import ThemeToggle from '@comp/ui/ThemeToggle';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -93,21 +94,25 @@ const Header = () => {
                   <span className="font-medium">{item.label}</span>
                 </Link>
               ))}
+              <ThemeToggle className="ml-2" />
             </nav>
 
-            <button
-              onClick={toggleMobileMenu}
-              className="lg:hidden flex items-center justify-center w-12 h-12 rounded-md hover:bg-muted transition-smooth press-effect focus-ring"
-              aria-label={isMobileMenuOpen ? 'Close menu' : 'Open menu'}
-              aria-expanded={isMobileMenuOpen}
-              aria-controls="mobile-menu"
-            >
-              <Icon
-                name={isMobileMenuOpen ? 'XMarkIcon' : 'Bars3Icon'}
-                size={24}
-                className="text-foreground"
-              />
-            </button>
+            <div className="flex items-center gap-2 lg:hidden">
+              <ThemeToggle />
+              <button
+                onClick={toggleMobileMenu}
+                className="flex items-center justify-center w-12 h-12 rounded-md hover:bg-muted transition-smooth press-effect focus-ring"
+                aria-label={isMobileMenuOpen ? 'Close menu' : 'Open menu'}
+                aria-expanded={isMobileMenuOpen}
+                aria-controls="mobile-menu"
+              >
+                <Icon
+                  name={isMobileMenuOpen ? 'XMarkIcon' : 'Bars3Icon'}
+                  size={24}
+                  className="text-foreground"
+                />
+              </button>
+            </div>
           </div>
         </div>
       </header>

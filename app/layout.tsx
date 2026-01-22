@@ -1,3 +1,4 @@
+import { ThemeProvider } from '@comp/providers/ThemeProvider';
 import type { Metadata, Viewport } from 'next';
 
 import Header from '@comp/common/Header';
@@ -29,10 +30,55 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html
+      lang="en"
+      suppressHydrationWarning
+    >
+      <head>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function() {
+                const theme = localStorage.getItem('theme');
+                if (theme === 'dark' || (!theme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+                  document.documentElement.classList.add('dark');
+                }
+              })();
+            `,
+          }}
+        />
+      </head>
       <body className={`${pallyFont.className}`}>
-        <Header />
-        {children}
+        <ThemeProvider>
+          <Header />
+          {children}
+          <footer className="bg-card border-t border-border mt-16">
+            <div className="container mx-auto px-6 lg:px-8 py-8">
+              <div className="flex flex-col md:flex-row justify-between items-center gap-4">
+                <p className="caption text-muted-foreground text-center md:text-left">
+                  &copy; {new Date().getFullYear()} TellmonifaEduHub. Empowering
+                  African students with mental health support.
+                </p>
+                <div className="flex gap-6">
+                  <a
+                    href="https://tellmonifa.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="caption text-muted-foreground hover:text-primary transition-smooth focus-ring rounded-sm px-2 -mx-2"
+                  >
+                    Tellmonifa.com
+                  </a>
+                  <a
+                    href="/resources-library"
+                    className="caption text-muted-foreground hover:text-primary transition-smooth focus-ring rounded-sm px-2 -mx-2"
+                  >
+                    Resources
+                  </a>
+                </div>
+              </div>
+            </div>
+          </footer>
+        </ThemeProvider>
 
         <script
           type="module"
