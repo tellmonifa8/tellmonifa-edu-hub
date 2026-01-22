@@ -1,7 +1,7 @@
 'use client';
 
+import Icon from '@comp/ui/AppIcon';
 import Link from 'next/link';
-import Icon from '@/components/ui/AppIcon';
 
 interface CTAButtonProps {
   variant?: 'primary' | 'secondary' | 'accent';

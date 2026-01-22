@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
+
 import Image from 'next/image';
 
 interface AppImageProps {
@@ -40,7 +41,6 @@ function AppImage({
   const [isLoading, setIsLoading] = useState(true);
   const [hasError, setHasError] = useState(false);
 
-  // More reliable external URL detection
   const isExternal =
     imageSrc.startsWith('http://') || imageSrc.startsWith('https://');
   const isLocal =

@@ -1,9 +1,10 @@
 'use client';
 
-import { useState } from 'react';
-import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import Icon from '@/components/ui/AppIcon';
+import { useState } from 'react';
+
+import Icon from '@comp/ui/AppIcon';
+import Link from 'next/link';
 
 interface NavigationItem {
   label: string;

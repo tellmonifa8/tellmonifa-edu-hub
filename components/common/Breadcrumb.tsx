@@ -1,8 +1,9 @@
 'use client';
 
-import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import Icon from '@/components/ui/AppIcon';
+
+import Icon from '@comp/ui/AppIcon';
+import Link from 'next/link';
 
 interface BreadcrumbItem {
   label: string;

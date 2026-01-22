@@ -1,14 +1,16 @@
 import type { Metadata } from 'next';
-import Header from '@/components/common/Header';
-import Breadcrumb from '@/components/common/Breadcrumb';
-import HomeInteractive from './home/components/HomeInteractive';
+
+import Breadcrumb from '@comp/common/Breadcrumb';
+import Header from '@comp/common/Header';
+import HomeInteractive from '@comp/home/HomeInteractive';
 
 export const metadata: Metadata = {
   title: 'StudentMindHub - Mental Health Support for African Students',
-  description: 'Access trusted mental health resources, practical guidance, and professional support designed specifically for African students navigating academic life and personal growth.',
+  description:
+    'Access trusted mental health resources, practical guidance, and professional support designed specifically for African students navigating academic life and personal growth.',
 };
 
-export default function LandingPage() {
+export default function HomePage() {
   return (
     <>
       <Header />

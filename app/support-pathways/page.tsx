@@ -1,8 +1,9 @@
 import type { Metadata } from 'next';
-import Header from '@/components/common/Header';
-import Breadcrumb from '@/components/common/Breadcrumb';
-import SupportPathwaysInteractive from './components/SupportPathwaysInteractive';
-import Icon from '@/components/ui/AppIcon';
+
+import Breadcrumb from '@comp/common/Breadcrumb';
+import Header from '@comp/common/Header';
+import SupportPathwaysInteractive from '@comp/support-pathways/SupportPathwaysInteractive';
+import Icon from '@comp/ui/AppIcon';
 
 export const metadata: Metadata = {
   title: 'Support Pathways - StudentMindHub',

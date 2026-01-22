@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
 
-import Breadcrumb from '@/components/common/Breadcrumb';
-import Header from '@/components/common/Header';
-import TopicsInteractive from './components/TopicsInteractive';
+import Breadcrumb from '@comp/common/Breadcrumb';
+import Header from '@comp/common/Header';
+import TopicsInteractive from '@comp/topics-overview/TopicsInteractive';
 
 export const metadata: Metadata = {
   title: 'Mental Health Topics - StudentMindHub',
