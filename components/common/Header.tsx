@@ -1,10 +1,11 @@
 'use client';
 
-import { usePathname } from 'next/navigation'
-import { useState } from 'react'
+import { usePathname } from 'next/navigation';
+import { useState } from 'react';
 
-import Icon from '@comp/ui/AppIcon'
-import Link from 'next/link'
+import Icon from '@comp/ui/AppIcon';
+import Image from 'next/image';
+import Link from 'next/link';
 
 interface NavigationItem {
   label: string;
@@ -47,19 +48,17 @@ const Header = () => {
             <Link
               href="/"
               className="flex items-center gap-3 hover-lift transition-smooth focus-ring"
-              aria-label="StudentMindHub Home"
+              aria-label="TellmonifaEduHub Home"
             >
-              <div className="flex items-center justify-center w-12 h-12 rounded-lg bg-primary">
-                <Icon
-                  name="AcademicCapIcon"
-                  size={28}
-                  className="text-primary-foreground"
-                  variant="solid"
-                />
-              </div>
+              <Image
+                src="/logo.png"
+                alt="TellmonifaEduHub Logo"
+                width={40}
+                height={40}
+              />
               <div className="flex flex-col">
-                <span className="text-xl font-heading font-semibold text-foreground leading-tight">
-                  StudentMindHub
+                <span className="text-xl font-heading font-semibold text-foreground">
+                  TellmonifaEduHub
                 </span>
                 <span className="text-xs caption text-muted-foreground">
                   Mental Wellness Support
@@ -87,7 +86,7 @@ const Header = () => {
                   aria-current={isActivePath(item.path) ? 'page' : undefined}
                 >
                   <Icon
-                    name={item.icon as any}
+                    name={item.icon}
                     size={20}
                     variant={isActivePath(item.path) ? 'solid' : 'outline'}
                   />

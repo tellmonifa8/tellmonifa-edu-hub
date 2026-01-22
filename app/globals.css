@@ -6,44 +6,44 @@
 
 @theme {
   /* Primary Colors */
-  --color-primary: #4A7C59;
+  --color-primary: #542C85;
   --color-primary-foreground: #FFFFFF;
 
   /* Secondary Colors */
-  --color-secondary: #6B8E7A;
+  --color-secondary: #28aec0;
   --color-secondary-foreground: #FFFFFF;
 
   /* Accent Colors */
-  --color-accent: #D4A574;
-  --color-accent-foreground: #2C3E50;
+  --color-accent: #28aec0;
+  --color-accent-foreground: #000000;
 
   /* Background Colors */
   --color-background: #FFFFFF;
-  --color-foreground: #2C3E50;
+  --color-foreground: #000000;
 
   /* Surface Colors */
-  --color-card: #F8FAF9;
-  --color-card-foreground: #2C3E50;
+  --color-card: #F8F6FB;
+  --color-card-foreground: #000000;
 
   /* Popover Colors */
   --color-popover: #FFFFFF;
-  --color-popover-foreground: #2C3E50;
+  --color-popover-foreground: #000000;
 
   /* Muted Colors */
-  --color-muted: #F8FAF9;
-  --color-muted-foreground: #5A6C7D;
+  --color-muted: #F8F6FB;
+  --color-muted-foreground: #4A4A4A;
 
   /* Border & Input */
-  --color-border: rgba(74, 124, 89, 0.15);
+  --color-border: rgba(84, 44, 133, 0.15);
   --color-input: #FFFFFF;
-  --color-ring: #D4A574;
+  --color-ring: #28aec0;
 
   /* Status Colors */
-  --color-success: #52A085;
+  --color-success: #28aec0;
   --color-success-foreground: #FFFFFF;
 
   --color-warning: #E6A532;
-  --color-warning-foreground: #2C3E50;
+  --color-warning-foreground: #000000;
 
   --color-error: #C85A54;
   --color-error-foreground: #FFFFFF;
@@ -58,10 +58,10 @@
   --radius-xl: 24px;
 
   /* Shadows */
-  --shadow-sm: 0 2px 4px rgba(74, 124, 89, 0.08);
-  --shadow-md: 0 4px 8px rgba(74, 124, 89, 0.12);
-  --shadow-lg: 0 8px 16px rgba(74, 124, 89, 0.14);
-  --shadow-xl: 0 20px 40px -8px rgba(74, 124, 89, 0.16);
+  --shadow-sm: 0 2px 4px rgba(84, 44, 133, 0.08);
+  --shadow-md: 0 4px 8px rgba(84, 44, 133, 0.12);
+  --shadow-lg: 0 8px 16px rgba(84, 44, 133, 0.14);
+  --shadow-xl: 0 20px 40px -8px rgba(84, 44, 133, 0.16);
 
   /* Font Families */
   --font-heading: 'Crimson Text', serif;
@@ -73,44 +73,44 @@
 @media (prefers-color-scheme: dark) {
   @theme {
     /* Primary Colors - Dark Mode */
-    --color-primary: #5A8B6B;
+    --color-primary: #6B3FA0;
     --color-primary-foreground: #FFFFFF;
 
     /* Secondary Colors - Dark Mode */
-    --color-secondary: #7A9E8A;
-    --color-secondary-foreground: #FFFFFF;
+    --color-secondary: #32C5D8;
+    --color-secondary-foreground: #000000;
 
     /* Accent Colors - Dark Mode */
-    --color-accent: #D4A574;
-    --color-accent-foreground: #0F1419;
+    --color-accent: #32C5D8;
+    --color-accent-foreground: #000000;
 
     /* Background Colors - Dark Mode */
-    --color-background: #FFFFFF;
-    --color-foreground: #2C3E50;
+    --color-background: #0F0F0F;
+    --color-foreground: #FFFFFF;
 
     /* Surface Colors - Dark Mode */
-    --color-card: #F8FAF9;
-    --color-card-foreground: #2C3E50;
+    --color-card: #1A1A1A;
+    --color-card-foreground: #FFFFFF;
 
     /* Popover Colors - Dark Mode */
-    --color-popover: #FFFFFF;
-    --color-popover-foreground: #2C3E50;
+    --color-popover: #1A1A1A;
+    --color-popover-foreground: #FFFFFF;
 
     /* Muted Colors - Dark Mode */
-    --color-muted: #F8FAF9;
-    --color-muted-foreground: #5A6C7D;
+    --color-muted: #1A1A1A;
+    --color-muted-foreground: #A0A0A0;
 
     /* Border & Input - Dark Mode */
-    --color-border: rgba(74, 124, 89, 0.15);
-    --color-input: #FFFFFF;
-    --color-ring: #D4A574;
+    --color-border: rgba(107, 63, 160, 0.3);
+    --color-input: #1A1A1A;
+    --color-ring: #32C5D8;
 
     /* Status Colors - Dark Mode */
-    --color-success: #52A085;
-    --color-success-foreground: #FFFFFF;
+    --color-success: #32C5D8;
+    --color-success-foreground: #000000;
 
     --color-warning: #E6A532;
-    --color-warning-foreground: #0F1419;
+    --color-warning-foreground: #000000;
 
     --color-error: #C85A54;
     --color-error-foreground: #FFFFFF;

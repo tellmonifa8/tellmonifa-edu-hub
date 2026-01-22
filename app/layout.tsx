@@ -1,8 +1,14 @@
 import type { Metadata, Viewport } from 'next';
 
 import Header from '@comp/common/Header';
+import localFont from 'next/font/local';
 
 import './globals.css';
+
+const pallyFont = localFont({
+  src: '../public/Pally-Variable.woff2',
+  display: 'swap',
+});
 
 export const viewport: Viewport = {
   width: 'device-width',
@@ -24,7 +30,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>
+      <body className={`${pallyFont.className}`}>
         <Header />
         {children}
 
