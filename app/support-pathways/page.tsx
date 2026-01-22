@@ -6,7 +6,7 @@ import SupportPathwaysInteractive from '@comp/support-pathways/SupportPathwaysIn
 import Icon from '@comp/ui/AppIcon';
 
 export const metadata: Metadata = {
-  title: 'Support Pathways - StudentMindHub',
+  title: 'Support Pathways - TellmonifaEduHub',
   description:
     'Find the right mental health support pathway for your needs. Access crisis support, professional therapy, peer connections, or self-help resources with clear step-by-step guidance.',
 };

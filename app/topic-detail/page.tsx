@@ -5,7 +5,7 @@ import Header from '@comp/common/Header';
 import TopicDetailInteractive from '@comp/topic-detail/TopicDetailInteractive';
 
 export const metadata: Metadata = {
-  title: 'Managing Academic Stress - StudentMindHub',
+  title: 'Managing Academic Stress - TellmonifaEduHub',
   description:
     'Comprehensive guide to understanding and managing academic stress for African students. Learn practical coping strategies, recognize warning signs, and discover when to seek professional support.',
 };

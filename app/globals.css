@@ -70,60 +70,58 @@
   --font-mono: 'JetBrains Mono', monospace;
 }
 
-@media (prefers-color-scheme: dark) {
-  @theme {
-    /* Primary Colors - Dark Mode */
-    --color-primary: #6B3FA0;
-    --color-primary-foreground: #FFFFFF;
+.dark {
+  /* Primary Colors - Dark Mode */
+  --color-primary: #6B3FA0;
+  --color-primary-foreground: #FFFFFF;
 
-    /* Secondary Colors - Dark Mode */
-    --color-secondary: #32C5D8;
-    --color-secondary-foreground: #000000;
+  /* Secondary Colors - Dark Mode */
+  --color-secondary: #32C5D8;
+  --color-secondary-foreground: #000000;
 
-    /* Accent Colors - Dark Mode */
-    --color-accent: #32C5D8;
-    --color-accent-foreground: #000000;
+  /* Accent Colors - Dark Mode */
+  --color-accent: #32C5D8;
+  --color-accent-foreground: #000000;
 
-    /* Background Colors - Dark Mode */
-    --color-background: #0F0F0F;
-    --color-foreground: #FFFFFF;
+  /* Background Colors - Dark Mode */
+  --color-background: #0F0F0F;
+  --color-foreground: #FFFFFF;
 
-    /* Surface Colors - Dark Mode */
-    --color-card: #1A1A1A;
-    --color-card-foreground: #FFFFFF;
+  /* Surface Colors - Dark Mode */
+  --color-card: #1A1A1A;
+  --color-card-foreground: #FFFFFF;
 
-    /* Popover Colors - Dark Mode */
-    --color-popover: #1A1A1A;
-    --color-popover-foreground: #FFFFFF;
+  /* Popover Colors - Dark Mode */
+  --color-popover: #1A1A1A;
+  --color-popover-foreground: #FFFFFF;
 
-    /* Muted Colors - Dark Mode */
-    --color-muted: #1A1A1A;
-    --color-muted-foreground: #A0A0A0;
+  /* Muted Colors - Dark Mode */
+  --color-muted: #1A1A1A;
+  --color-muted-foreground: #A0A0A0;
 
-    /* Border & Input - Dark Mode */
-    --color-border: rgba(107, 63, 160, 0.3);
-    --color-input: #1A1A1A;
-    --color-ring: #32C5D8;
+  /* Border & Input - Dark Mode */
+  --color-border: rgba(107, 63, 160, 0.3);
+  --color-input: #1A1A1A;
+  --color-ring: #32C5D8;
 
-    /* Status Colors - Dark Mode */
-    --color-success: #32C5D8;
-    --color-success-foreground: #000000;
+  /* Status Colors - Dark Mode */
+  --color-success: #32C5D8;
+  --color-success-foreground: #000000;
 
-    --color-warning: #E6A532;
-    --color-warning-foreground: #000000;
+  --color-warning: #E6A532;
+  --color-warning-foreground: #000000;
 
-    --color-error: #C85A54;
-    --color-error-foreground: #FFFFFF;
+  --color-error: #C85A54;
+  --color-error-foreground: #FFFFFF;
 
-    --color-destructive: #C85A54;
-    --color-destructive-foreground: #FFFFFF;
+  --color-destructive: #C85A54;
+  --color-destructive-foreground: #FFFFFF;
 
-    /* Shadows - Dark Mode */
-    --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.3);
-    --shadow-md: 0 4px 8px rgba(0, 0, 0, 0.4);
-    --shadow-lg: 0 8px 16px rgba(0, 0, 0, 0.5);
-    --shadow-xl: 0 20px 40px -8px rgba(0, 0, 0, 0.6);
-  }
+  /* Shadows - Dark Mode */
+  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 8px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 8px 16px rgba(0, 0, 0, 0.5);
+  --shadow-xl: 0 20px 40px -8px rgba(0, 0, 0, 0.6);
 }
 
 body {

@@ -4,7 +4,7 @@ import Breadcrumb from '@comp/common/Breadcrumb';
 import TopicsInteractive from '@comp/topics-overview/TopicsInteractive';
 
 export const metadata: Metadata = {
-  title: 'Mental Health Topics - StudentMindHub',
+  title: 'Mental Health Topics - TellmonifaEduHub',
   description:
     'Explore comprehensive mental health topics designed for African students, covering academic stress, anxiety, exam pressure, loneliness, and life transitions with culturally sensitive guidance.',
 };
@@ -32,33 +32,6 @@ export default function TopicsOverviewPage() {
           <TopicsInteractive />
         </section>
       </main>
-
-      <footer className="bg-card border-t border-border mt-16">
-        <div className="container mx-auto px-6 lg:px-8 py-8">
-          <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-            <p className="caption text-muted-foreground text-center md:text-left">
-              &copy; {new Date().getFullYear()} StudentMindHub. Empowering
-              African students with mental health support.
-            </p>
-            <div className="flex gap-6">
-              <a
-                href="https://tellmonifa.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="caption text-muted-foreground hover:text-primary transition-smooth focus-ring rounded-sm px-2 -mx-2"
-              >
-                Tellmonifa.com
-              </a>
-              <a
-                href="/resources-library"
-                className="caption text-muted-foreground hover:text-primary transition-smooth focus-ring rounded-sm px-2 -mx-2"
-              >
-                Resources
-              </a>
-            </div>
-          </div>
-        </div>
-      </footer>
     </div>
   );
 }
