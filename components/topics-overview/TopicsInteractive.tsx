@@ -26,8 +26,8 @@ const mockTopics: Topic[] = [
       'Managing the pressure of coursework, deadlines, and academic expectations while maintaining your wellbeing.',
     preview:
       'Learn practical strategies to balance your studies with self-care, set realistic goals, and develop healthy study habits that support both academic success and mental health.',
-    image: 'https://images.pexels.com/photos/5212317/pexels-photo-5212317.jpeg',
-    alt: 'African student studying at desk with laptop and books in well-lit room',
+    image: 'https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800',
+    alt: 'Young Black African student studying at desk with laptop and books in well-lit room, managing academic stress',
     icon: 'AcademicCapIcon',
   },
   {
@@ -38,8 +38,8 @@ const mockTopics: Topic[] = [
       'Understanding and managing feelings of worry, nervousness, and unease that affect your daily life.',
     preview:
       'Discover evidence-based techniques to recognize anxiety triggers, practice grounding exercises, and build resilience through culturally appropriate coping strategies.',
-    image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2',
-    alt: 'Young African woman sitting thoughtfully by window with natural lighting',
+    image: 'https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800',
+    alt: 'Young Black African woman sitting thoughtfully by window with natural lighting, managing anxiety',
     icon: 'ExclamationTriangleIcon',
   },
   {
@@ -51,8 +51,8 @@ const mockTopics: Topic[] = [
     preview:
       'Explore effective revision techniques, stress management tools, and mindset strategies to approach exams with confidence and maintain perspective during high-pressure periods.',
     image:
-      'https://images.pixabay.com/photo/2016/11/29/03/36/woman-1867093_1280.jpg',
-    alt: 'Student writing exam in classroom with focused concentration',
+      'https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800',
+    alt: 'Young Black African student writing exam in classroom with focused concentration, dealing with exam pressure',
     icon: 'DocumentTextIcon',
   },
   {
@@ -63,8 +63,8 @@ const mockTopics: Topic[] = [
       'Navigating moments when life demands feel too much to handle and everything seems impossible.',
     preview:
       'Learn to break down overwhelming situations into manageable steps, prioritize effectively, and recognize when to seek support from peers, family, or professionals.',
-    image: 'https://images.pexels.com/photos/3808904/pexels-photo-3808904.jpeg',
-    alt: 'African student sitting with head in hands looking stressed in library',
+    image: 'https://i.pinimg.com/1200x/4e/77/cb/4e77cb582c46af34f1e317c9eeb7ca15.jpg',
+    alt: 'Young Black African student sitting with head in hands looking overwhelmed in library',
     icon: 'CloudIcon',
   },
   {
@@ -75,8 +75,8 @@ const mockTopics: Topic[] = [
       'Addressing feelings of isolation and disconnection, especially when away from home or family.',
     preview:
       'Understand the difference between being alone and feeling lonely, discover ways to build meaningful connections, and find community support that honors your cultural background.',
-    image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330',
-    alt: 'Young African woman sitting alone on bench outdoors looking contemplative',
+    image: 'https://i.pinimg.com/736x/10/26/0b/10260b281a4f5dc0be56c8ffc165496a.jpg',
+    alt: 'Young Black African woman sitting alone on bench outdoors looking contemplative, experiencing loneliness',
     icon: 'UserIcon',
   },
   {
@@ -88,8 +88,8 @@ const mockTopics: Topic[] = [
     preview:
       'Navigate transitions with confidence by understanding common adjustment challenges, building new routines, and maintaining connections to your roots while embracing growth.',
     image:
-      'https://images.pixabay.com/photo/2017/08/06/12/52/woman-2592247_1280.jpg',
-    alt: 'African student walking on university campus with backpack and confident posture',
+      'https://i.pinimg.com/736x/a8/12/23/a8122371092ccca168276dc5b5a06cf1.jpg',
+    alt: 'Young Black African student walking on university campus with backpack, navigating life transitions',
     icon: 'ArrowPathIcon',
   },
 ];

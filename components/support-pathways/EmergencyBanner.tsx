@@ -32,13 +32,13 @@ const EmergencyBanner = () => {
               icon="PhoneIcon"
               iconPosition="left"
             >
-              Call Crisis Line: 0800-567-567
+              Call Crisis Line: 2335-565-788-44
             </CTAButton>
 
             <CTAButton
               variant="primary"
               size="md"
-              href="https://www.tellmonifa.com/crisis-support"
+              href="https://www.tellmonifa.com/auth/login"
               icon="ChatBubbleLeftRightIcon"
               iconPosition="left"
             >
