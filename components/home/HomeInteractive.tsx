@@ -64,8 +64,8 @@ const HomeInteractive = () => {
       description:
         'Learn evidence-based techniques to reduce exam stress and perform at your best during assessment periods.',
       image:
-        'https://images.pexels.com/photos/5212317/pexels-photo-5212317.jpeg',
-      alt: 'African student studying at desk with open textbooks and laptop in bright library setting',
+        'https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800',
+      alt: 'Young Black African student studying for exams with focused expression, managing exam anxiety',
       category: 'Study Skills',
       readTime: '8 min read',
       href: '/practical-guides',
@@ -74,8 +74,8 @@ const HomeInteractive = () => {
       title: 'Building Healthy Study Habits',
       description:
         'Discover sustainable approaches to academic work that protect your mental health and enhance learning outcomes.',
-      image: 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f',
-      alt: 'Group of diverse students collaborating around table with notebooks and digital devices',
+      image: 'https://i.pinimg.com/736x/10/6a/54/106a54aecf99c4bb28471d705816756f.jpg',
+      alt: 'Group of young Black African students collaborating around table with notebooks and digital devices, building healthy study habits',
       category: 'Wellness',
       readTime: '6 min read',
       href: '/practical-guides',
@@ -84,8 +84,8 @@ const HomeInteractive = () => {
       title: 'Connecting with Campus Support Services',
       description:
         'Navigate available mental health resources at your institution and learn how to access professional support.',
-      image: 'https://pixabay.com/get/g0d4c7a8f8c8e8f8e8f',
-      alt: 'Student meeting with campus counselor in welcoming office environment',
+      image: 'https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=800',
+      alt: 'Young Black African student meeting with campus counselor in welcoming office environment',
       category: 'Resources',
       readTime: '5 min read',
       href: '/support-pathways',
