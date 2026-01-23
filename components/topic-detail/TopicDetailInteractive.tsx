@@ -65,9 +65,9 @@ const TopicDetailInteractive = () => {
       title: 'Managing Academic Stress',
       description:
         'Understanding and overcoming the pressures of academic life while maintaining your mental wellbeing. Learn practical strategies tailored for African students navigating educational challenges.',
-      image: 'https://images.unsplash.com/photo-1434030216411-0b793f4b4173',
+      image: 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800',
       imageAlt:
-        'African student studying at desk with open textbooks and laptop in bright library setting',
+        'Young Black African student studying at desk with open textbooks and laptop in bright library setting',
       category: 'Academic Wellness',
       readTime: '8 min read',
     },
@@ -188,9 +188,9 @@ const TopicDetailInteractive = () => {
         description:
           'Learn techniques to stay calm and focused during high-pressure examination periods.',
         image:
-          'https://images.pexels.com/photos/6238050/pexels-photo-6238050.jpeg',
+          'https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800',
         imageAlt:
-          'African student writing exam in classroom with focused expression',
+          'Young Black African student writing exam in classroom with focused expression',
         icon: 'DocumentTextIcon',
       },
       {
@@ -198,18 +198,18 @@ const TopicDetailInteractive = () => {
         description:
           'Strategies for building connections and overcoming feelings of isolation at university.',
         image:
-          'https://images.pixabay.com/photo/2017/08/06/22/01/woman-2596150_1280.jpg',
+          'https://images.unsplash.com/photo-1517841905240-472988babdf9?w=800',
         imageAlt:
-          'Young African woman sitting alone on campus bench looking thoughtful',
+          'Young Black African woman sitting alone on campus bench looking thoughtful, dealing with loneliness',
         icon: 'UserIcon',
       },
       {
         title: 'Life Transitions',
         description:
           'Navigate major changes like starting university or moving to a new city with confidence.',
-        image: 'https://images.unsplash.com/photo-1523050854058-8df90110c9f1',
+        image: 'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=800',
         imageAlt:
-          'African students walking together on university campus with backpacks',
+          'Young Black African students walking together on university campus with backpacks, navigating transitions',
         icon: 'ArrowPathIcon',
       },
     ],

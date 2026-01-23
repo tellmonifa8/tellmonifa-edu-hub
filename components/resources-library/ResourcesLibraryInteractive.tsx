@@ -44,9 +44,9 @@ const ResourcesLibraryInteractive = () => {
       type: 'PDF',
       category: 'Academic Stress',
       imageUrl:
-        'https://images.pexels.com/photos/4145190/pexels-photo-4145190.jpeg',
+        'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800',
       imageAlt:
-        'Young African student studying at desk with laptop and books in bright library setting',
+        'Young Black African student studying at desk with laptop and books in bright library setting',
       downloadCount: 2847,
       isFeatured: true,
       audience: 'University Students',
@@ -58,9 +58,9 @@ const ResourcesLibraryInteractive = () => {
         'Interactive worksheets with breathing exercises, thought challenging techniques, and daily anxiety tracking tools for students.',
       type: 'Worksheet',
       category: 'Anxiety Management',
-      imageUrl: 'https://images.unsplash.com/photo-1544027993-37dbfe43562a',
+      imageUrl: 'https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=800',
       imageAlt:
-        'Close-up of hands writing in journal with colorful pens on wooden desk',
+        'Young Black African student writing in journal with colorful pens on wooden desk',
       downloadCount: 1923,
       isFeatured: true,
       audience: 'Secondary Students',
@@ -73,9 +73,9 @@ const ResourcesLibraryInteractive = () => {
       type: 'Guide',
       category: 'Exam Preparation',
       imageUrl:
-        'https://images.pixabay.com/photo/2016/11/29/03/53/architecture-1867187_1280.jpg',
+        'https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800',
       imageAlt:
-        'Student studying with organized notes and highlighters spread across desk',
+        'Young Black African student studying with organized notes and highlighters spread across desk',
       downloadCount: 3156,
       isFeatured: true,
       audience: 'University Students',
@@ -88,9 +88,9 @@ const ResourcesLibraryInteractive = () => {
       type: 'PDF',
       category: 'Crisis Support',
       imageUrl:
-        'https://images.pexels.com/photos/5699456/pexels-photo-5699456.jpeg',
+        'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=800',
       imageAlt:
-        'Supportive counselor holding hands with student in comfortable therapy room',
+        'Supportive counselor meeting with young Black African student in comfortable therapy room',
       downloadCount: 1567,
       isFeatured: false,
       audience: 'All Audiences',
@@ -102,9 +102,9 @@ const ResourcesLibraryInteractive = () => {
         'Evidence-based techniques for creating sustainable study routines, avoiding burnout, and maintaining work-life balance.',
       type: 'Guide',
       category: 'Academic Stress',
-      imageUrl: 'https://images.unsplash.com/photo-1434030216411-0b793f4b4173',
+      imageUrl: 'https://i.pinimg.com/736x/10/6a/54/106a54aecf99c4bb28471d705816756f.jpg',
       imageAlt:
-        'Organized study space with laptop, planner, and coffee cup on clean desk',
+        'Young Black African student with organized study space including laptop, planner, and coffee cup on clean desk',
       downloadCount: 2234,
       isFeatured: false,
       audience: 'University Students',
@@ -117,8 +117,8 @@ const ResourcesLibraryInteractive = () => {
       type: 'Worksheet',
       category: 'Anxiety Management',
       imageUrl:
-        'https://images.pixabay.com/photo/2017/08/06/12/06/people-2591874_1280.jpg',
-      imageAlt: 'Peaceful student meditating in quiet outdoor garden setting',
+        'https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800',
+      imageAlt: 'Young Black African student meditating in quiet outdoor garden setting',
       downloadCount: 1789,
       isFeatured: false,
       audience: 'Secondary Students',
@@ -131,9 +131,8 @@ const ResourcesLibraryInteractive = () => {
       type: 'PDF',
       category: 'Crisis Support',
       imageUrl:
-        'https://images.pexels.com/photos/4101143/pexels-photo-4101143.jpeg',
-      imageAlt:
-        'Parent and teenage student having supportive conversation at kitchen table',
+        'https://i.pinimg.com/1200x/ad/61/66/ad6166663bd179a688228d6ded75166b.jpg',
+      imageAlt: 'Parent and young Black African student having supportive conversation at kitchen table',
       downloadCount: 1456,
       isFeatured: false,
       audience: 'Parents & Guardians',
@@ -145,9 +144,9 @@ const ResourcesLibraryInteractive = () => {
         'Quick relaxation exercises, visualization methods, and breathing techniques to use before and during exams.',
       type: 'Worksheet',
       category: 'Exam Preparation',
-      imageUrl: 'https://images.unsplash.com/photo-1506126613408-eca07ce68773',
+      imageUrl: 'https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800',
       imageAlt:
-        'Calm student practicing breathing exercises with eyes closed in peaceful setting',
+        'Young Black African student practicing breathing exercises with eyes closed in peaceful setting',
       downloadCount: 2678,
       isFeatured: false,
       audience: 'University Students',
@@ -160,9 +159,9 @@ const ResourcesLibraryInteractive = () => {
       type: 'Guide',
       category: 'Anxiety Management',
       imageUrl:
-        'https://images.pixabay.com/photo/2015/07/17/22/43/student-849825_1280.jpg',
+        'https://i.pinimg.com/1200x/57/5e/19/575e19b9870d83ee1655a265ca080521.jpg',
       imageAlt:
-        'Teacher having one-on-one supportive discussion with student in classroom',
+        'Teacher having one-on-one supportive discussion with young Black African student in classroom',
       downloadCount: 987,
       isFeatured: false,
       audience: 'Educators',
@@ -175,9 +174,9 @@ const ResourcesLibraryInteractive = () => {
       type: 'PDF',
       category: 'Academic Stress',
       imageUrl:
-        'https://images.pexels.com/photos/6238050/pexels-photo-6238050.jpeg',
+        'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800',
       imageAlt:
-        'Student planning schedule in colorful planner with sticky notes and markers',
+        'Young Black African student planning schedule in colorful planner with sticky notes and markers',
       downloadCount: 2145,
       isFeatured: false,
       audience: 'Secondary Students',
@@ -189,9 +188,9 @@ const ResourcesLibraryInteractive = () => {
         'Evidence-based sleep strategies, bedtime routines, and techniques to improve sleep quality for enhanced learning.',
       type: 'Guide',
       category: 'Academic Stress',
-      imageUrl: 'https://images.unsplash.com/photo-1541781774459-bb2af2f05b55',
+      imageUrl: 'https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=800',
       imageAlt:
-        'Peaceful bedroom setup with comfortable bed and calming nighttime lighting',
+        'Young Black African student in peaceful bedroom setup with comfortable bed and calming nighttime lighting',
       downloadCount: 1834,
       isFeatured: false,
       audience: 'University Students',
@@ -204,9 +203,9 @@ const ResourcesLibraryInteractive = () => {
       type: 'Worksheet',
       category: 'Crisis Support',
       imageUrl:
-        'https://images.pixabay.com/photo/2017/03/13/17/26/ekg-2140795_1280.jpg',
+        'https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800',
       imageAlt:
-        'Emergency contact list and mental health resources laid out on desk',
+        'Young Black African student with emergency contact list and mental health resources laid out on desk',
       downloadCount: 1623,
       isFeatured: false,
       audience: 'All Audiences',
